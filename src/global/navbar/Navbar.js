@@ -23,6 +23,7 @@ class Navigation extends Component {
             <Link to='/hakkimizda'>Hakkımızda</Link>
             <Link to='/hizmetlerimiz'>Hizmetlerimiz</Link>
             <Link to='/iletisim'>İletişim</Link>
+            <Link to='/demo'>demo</Link>
             {/* <Link to='/galeri'>Galeri</Link> */}
           </Nav>
         </Navbar.Collapse>
