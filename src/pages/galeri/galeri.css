@@ -1,0 +1,31 @@
+.alice-carousel__prev-btn {
+    text-align: center;
+}
+
+.alice-carousel__prev-btn-item,
+.alice-carousel__next-btn-item {
+    font-family: Avenir-Medium;
+    font-weight: 500;
+    font-size: 16px;
+    color: #D0021B;
+}
+
+.alice-carousel__dots-item {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: rgba(208, 2, 26, 0.2);
+}
+
+.alice-carousel__dots-item.__active {
+    background-color: #D0021B;
+}
+
+.alice-carousel__slide-info {
+
+    color: white;
+
+    background-color: rgba(208, 2, 26, 0.2);
+}

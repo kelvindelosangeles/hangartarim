@@ -1,0 +1,40 @@
+.navbar {
+  background-color: white;
+  width: 100%;
+  box-shadow: 0 2px 4px 0 rgba(200, 200, 200, 0.5);
+  padding: 16px;
+}
+
+nav .brand img {
+  height: 30px;
+}
+
+#navbar a {
+  margin: 8px 0;
+  color: black;
+  font-family: 'Avenir-Medium';
+
+}
+
+#navbar a:hover {
+  text-decoration: none;
+}
+
+.navbar-brand img {
+  height: 25px;
+}
+
+
+
+@media(max-width:991px) {
+
+  #navbar a:first-of-type {
+    margin-top: 24px;
+  }
+}
+
+@media(min-width:992px) {
+  #navbar a {
+    margin: 8px 24px;
+  }
+}

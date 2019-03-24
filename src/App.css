@@ -1,33 +1,81 @@
-.App {
-  text-align: center;
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Avenir;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+body {
+    background-color: white;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.container {
+    padding: 0;
+    /* margin: 0 auto; */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    max-width: 1400px;
+    align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+/* CARD SETTINGS */
+.crd-container {
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    flex-grow: 1;
+    padding: 32px 16px;
+    width: 100%
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.crd {
+    padding: 32px 16px !important;
+    background: rgba(255, 255, 255, 0.95);
+    box-shadow: 0 2px 4px 0 rgba(200, 200, 200, 0.50);
+    border-radius: 16px;
+    text-align: center;
+    align-self: center;
+}
+
+.crd-heading {
+    font-family: Avenir-Heavy;
+    font-size: 24px;
+    color: #000000;
+    margin-bottom: 32px;
+}
+
+.crd-heading-accent {
+    font-family: Avenir-Heavy;
+    font-size: 24px;
+    margin-bottom: 32px;
+    color: #D0021B;
+
+}
+
+.crd-subheading {
+    font-family: Avenir-Black;
+    font-size: 15px;
+    color: #D0021B;
+    margin: 0
+}
+
+.crd-text {
+    font-family: Avenir-Medium;
+    font-size: 16px;
+    color: #000000;
+    letter-spacing: 0.5px;
+    text-align: center;
+    margin: 0
+}
+
+.btn-danger {
+    background: #D0021B;
+    border-radius: 4px;
+    font-family: Avenir;
+    font-size: 12.8px;
+    color: #FFFFFF;
+    align-self: center;
+    margin: 16px 0;
+    padding: 8px 32px;
 }

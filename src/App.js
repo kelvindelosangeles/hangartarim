@@ -1,26 +1,34 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
+
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+
+import Navbar from './global/navbar/Navbar';
+import Home from './pages/home/Home';
+
+import Container from 'react-bootstrap/Container';
+import Hakkimizda from './pages/hakkimizda/Hakkimizda';
+import Hizmetlerimiz from './pages/hizmetlerimiz/Hizmetlerimiz';
+import Iletisim from './pages/iletisim/Iletisim';
+import Footer from './global/footer/Footer';
+import Galeri from './pages/galeri/Galeri';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
+      <Router>
+        <Container>
+          <Navbar />
+          <Switch>
+            <Route exact path='/' component={Home} />
+            <Route exact path='/hakkimizda' component={Hakkimizda} />
+            <Route exact path='/hizmetlerimiz' component={Hizmetlerimiz} />
+            <Route exact path='/iletisim' component={Iletisim} />
+            <Route exact path='/galeri' component={Galeri} />
+          </Switch>
+          <Footer />
+        </Container>
+      </Router>
     );
   }
 }

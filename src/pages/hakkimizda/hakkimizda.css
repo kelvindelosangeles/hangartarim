@@ -1,0 +1,36 @@
+.about .ul-row {
+    justify-content: center
+}
+
+.about .ul-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.about li {
+    font-family: Avenir-Medium;
+    font-size: 12.15px;
+    color: #000000;
+    letter-spacing: 0;
+    margin: 8px 24px;
+    text-align: left;
+}
+
+.about li:first-of-type {
+    margin-top: 0;
+}
+
+.about ul {
+    list-style: none;
+    margin-bottom: 8px;
+}
+
+.about li::before {
+    content: "•";
+    color: red;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="212px" height="44px" viewBox="0 0 212 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53 (72520) - https://sketchapp.com -->
+    <title>Logo / Light</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Logo-/-Light" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Hangar-Logo">
+            <text id="ANGAR" font-family="Avenir-Heavy, Avenir" font-size="35" font-weight="600" letter-spacing="8.679999" fill="#000000">
+                <tspan x="40" y="35">ANGAR</tspan>
+            </text>
+            <g id="H">
+                <rect id="Rectangle" fill="#000000" x="0" y="0" width="34" height="44"></rect>
+                <polygon fill="#FFFFFF" points="6.52 9.22 11.98 9.22 11.98 18.46 22.585 18.46 22.585 9.22 28.045 9.22 28.045 34 22.585 34 22.585 23.29 11.98 23.29 11.98 34 6.52 34"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>
