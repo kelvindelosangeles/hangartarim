@@ -11,7 +11,7 @@ import Hakkimizda from './pages/hakkimizda/Hakkimizda';
 import Hizmetlerimiz from './pages/hizmetlerimiz/Hizmetlerimiz';
 import Iletisim from './pages/iletisim/Iletisim';
 import Footer from './global/footer/Footer';
-import Galeri from './pages/galeri/Galeri';
+// import Galeri from './pages/galeri/Galeri';
 
 class App extends Component {
   render() {
@@ -24,7 +24,7 @@ class App extends Component {
             <Route exact path='/hakkimizda' component={Hakkimizda} />
             <Route exact path='/hizmetlerimiz' component={Hizmetlerimiz} />
             <Route exact path='/iletisim' component={Iletisim} />
-            <Route exact path='/galeri' component={Galeri} />
+            {/* <Route exact path='/galeri' component={Galeri} /> */}
           </Switch>
           <Footer />
         </Container>
