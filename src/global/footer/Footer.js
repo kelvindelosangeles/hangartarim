@@ -23,7 +23,7 @@ class Footer extends Component {
               <p>+90 532 291 63 66</p>
             </div>
             <div className='email'>
-              <i class='fas fa-envelope' /> <p>info@hangartarim.com</p>
+              <i className='fas fa-envelope' /> <p>info@hangartarim.com</p>
             </div>
           </Col>
           <Col className='footer-bottom' xs={10} sm={4} md={4} lg={4} xl={3}>

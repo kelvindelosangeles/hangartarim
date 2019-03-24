@@ -27,7 +27,12 @@ class Hizmetlerimiz extends Component {
         xlarge={8}>
         <Row className='row srv'>
           <Col xs={8} sm={4} md={4} lg={4} className='service'>
-            <Image src={cherrypackaging} fluid className='srv-icon' alt />
+            <Image
+              src={cherrypackaging}
+              fluid
+              className='srv-icon'
+              alt='cherry-packaging-icon'
+            />
             <h3>Kiraz Paketleme</h3>
             <p className='srv-text'>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
@@ -39,7 +44,12 @@ class Hizmetlerimiz extends Component {
             </Button>
           </Col>
           <Col xs={8} sm={4} md={4} lg={4} className='service'>
-            <Image src={cherryMachine} fluid className='srv-icon' alt />
+            <Image
+              src={cherryMachine}
+              fluid
+              className='srv-icon'
+              alt='cherry-machine-icon'
+            />
             <h3>Machine Name</h3>
             <p className='srv-text'>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
@@ -51,7 +61,12 @@ class Hizmetlerimiz extends Component {
             </Button>
           </Col>
           <Col xs={8} sm={4} md={4} lg={4} className='service'>
-            <Image src={freezer} fluid className='srv-icon' alt />
+            <Image
+              src={freezer}
+              fluid
+              className='srv-icon'
+              alt='freezer-icon'
+            />
             <h3>Soğuk Hava Depoları</h3>
             <p className='srv-text'>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do

@@ -8,7 +8,6 @@ import Facilities from '../../assets/images/images/facility.jpg';
 import background from '../../assets/images/images/Cherries.jpg';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import Button from 'react-bootstrap/Button';
 
 class Home extends Component {
   render() {

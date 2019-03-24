@@ -27,7 +27,7 @@ class Iletisim extends Component {
     e.preventDefault();
     axios({
       method: 'post',
-      url: `${API_PATH}`,
+      url: API_PATH,
       headers: { 'content-type': 'application/json' },
       data: this.state
     })
@@ -75,7 +75,7 @@ class Iletisim extends Component {
                           type='text'
                           name='name'
                           required=''
-                          autocomplete='on'
+                          autoComplete='on'
                           value={this.state.name}
                           onChange={(e) => {
                             this.setState({ name: e.target.value });
@@ -92,7 +92,7 @@ class Iletisim extends Component {
                           className='form-control'
                           type='text'
                           name='company'
-                          autocomplete='on'
+                          autoComplete='on'
                           value={this.state.company}
                           onChange={(e) => {
                             this.setState({ company: e.target.value });
@@ -148,7 +148,6 @@ class Iletisim extends Component {
                           className='form-control'
                           name='message'
                           style={{ maxWidth: '100%' }}
-                          defaultValue={''}
                           rows={3}
                           value={this.state.message}
                           onChange={(e) => {
