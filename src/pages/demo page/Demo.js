@@ -3,7 +3,8 @@ import './demo.css';
 
 import axios from 'axios';
 
-const API_PATH = '%PUBLIC_URL%/api/contact/index.php';
+const API_PATH =
+  process.env.PUBLIC_URL + '../../../public/api/contact/index.php';
 
 class Demo extends Component {
   constructor(props) {
