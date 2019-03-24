@@ -4,7 +4,7 @@ import './demo.css';
 import axios from 'axios';
 
 const API_PATH =
-  process.env.PUBLIC_URL + '../../../public/api/contact/index.php';
+  'http://localhost:1992/react-contact-form/api/contact/index.php';
 
 class Demo extends Component {
   constructor(props) {
